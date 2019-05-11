@@ -1,5 +1,22 @@
+/* ======== TAG SELECTORS ========*/
 h1 { color: blue; }
 
-img {
+img:hover {
+	background-color: red;
+}
+
+
+/* ======== CLASS SELECTORS ========*/
+.broccoli {
 	background-color: lightblue;
+}
+
+.mango {
+	background-color: yellow;
+	border-radius: 25%;
+}
+/* ======== ID SELECTORS ========*/
+
+#heading {
+	color: red;
 }
